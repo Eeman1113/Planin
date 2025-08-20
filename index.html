@@ -329,7 +329,7 @@
                 children: blocks
             };
 
-            const response = await fetch("http://localhost:3001/notion", {
+            const response = await fetch("planin-iota.vercel.app/notion", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(payload)
